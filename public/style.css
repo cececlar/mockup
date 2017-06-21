@@ -1,0 +1,269 @@
+* {
+  box-sizing: border-box;
+}
+
+ul, li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+section {
+  margin: 3%;
+}
+
+h2 {
+  font-size: 1em;
+  font-family: 'Arial', sans-serif;
+  font-weight: bold;
+  margin: .5%;
+}
+
+/* body-container */
+
+#body-container {
+  margin: 3%;
+}
+
+/* header */
+
+#header {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 3%;
+  margin-right: 7%;
+  margin-bottom: -1%;
+}
+
+#analytics-header {
+  font-family: 'Arial', sans-serif;
+  font-size: 1.2em;
+  float: left;
+  font-weight: bold;
+}
+
+#header-button {
+  float: right;
+  height: 1.9em;
+  padding: .4em;
+  background-color: #2883cf;
+  border-radius: 3px;
+  vertical-align: middle;
+  text-align: center;
+  color: white;
+  font-family: 'Arial', sans-serif;
+  font-size: .60em;
+}
+
+/* dotted-line */
+#dotted-line {
+  border-bottom-width: 2px;
+  border-bottom-color: #d0dde7;
+  border-bottom-style: dotted;
+  border-bottom-width: 100%;
+  width: 90%;
+  display: block;
+  clear: both;
+  margin-top: 2%;
+  margin-left: 3%;
+  text-align: center;
+}
+
+/* buttons and drop down menu */
+#buttons-and-drop-down {
+  margin-top: 1%;
+  margin-bottom: 1%;
+  margin-right: 7%;
+  float: right;
+  display: flex;
+  margin-left: -10px;
+}
+
+#week-month-buttons {
+  font-size: .6em;
+}
+
+#week-button, #month-button {
+  padding: 5px 13px;
+  border-radius: 3px;
+  border-width: 1px;
+}
+
+#week-button {
+  background-color: #e6e6e6;
+}
+
+#month-button {
+  font-weight: bold;
+  color: white;
+  background-color: #a8a8a8;
+}
+
+#drop-down-menu {
+  margin-left: 10px;
+  font-size: .6em;
+  text-align: left;
+  padding: 5px;
+}
+
+div select {
+  padding: 5px;
+}
+
+/* inline-graph */
+#inline-graph {
+  text-align: center;
+}
+
+img {
+  width: 96%;
+  height: auto;
+  text-align: center;
+}
+
+/* overview */
+#overview-table {
+  border-width: 1px;
+  border-color: #d0dde7;
+  border-style: solid;
+  text-align: center;
+  font-family: 'Arial', sans-serif;
+  width: 96%;
+  font-weight: bold;
+  border-collapse: collapse;
+}
+
+#overview-table th {
+  font-size: .6em;
+  color: #999999;
+  vertical-align: bottom;
+  border-right-color: #d0dde7;
+  border-width: 1px;
+  border-right-style: solid;
+  width: 20%;
+  padding: 3px;
+}
+
+#overview-table td {
+  font-size: .8em;
+  border-right-color: #d0dde7;
+  border-width: 1px;
+  border-right-style: solid;
+  width: 20%;
+  padding: 3px;
+  vertical-align: top;
+}
+
+/* geolocation */
+
+#geolocation-header {
+  width: 95%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: -.5%;
+}
+
+#geolocation-header p {
+  font-family: 'Arial', sans-serif;
+  font-size: .6em;
+  float: right;
+  color: #2883cf;
+  font-weight: bold;
+}
+
+/* views */
+
+#video-and-post-views {
+  width: 100%;
+}
+
+.views {
+  display: flex;
+}
+
+#video-views-whole-section {
+  float: left;
+  width: 43%;
+  margin-left: 3%;
+}
+
+.views-table {
+  font-size: .6em;
+  color: #999999;
+  border-color: #d0dde7;
+  border-width: 1px;
+  border-style: solid;
+  border-collapse: collapse;
+  width: 100%;
+  font-family: 'Arial', sans-serif;
+  padding: 5px;
+}
+
+.views-th th {
+  text-align: left;
+  background-color: #edf2f5;
+  border-color: #d0dde7;
+  border-width: 1px;
+  border-style: solid;
+  border-collapse: collapse;
+  padding: 5px;
+}
+
+.views tr {
+  border-color: #d0dde7;
+  border-width: 1px;
+  border-style: solid;
+  border-collapse: collapse;
+}
+
+.views td {
+  border-color: #d0dde7;
+  border-width: 1px;
+  border-style: solid;
+  border-collapse: collapse;
+  padding: 5px;
+}
+
+#video-views-header {
+  width: 99%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: -2%;
+}
+
+
+#video-views-header p {
+  font-family: 'Arial', sans-serif;
+  font-size: .6em;
+  float: right;
+  color: #2883cf;
+  font-weight: bold;
+}
+
+#post-views-whole-section {
+  float: right;
+  width: 43%;
+  margin-right: 7%;
+}
+
+#post-views-header {
+  width: 99%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: -2%;
+}
+
+#post-views-header p {
+    font-family: 'Arial', sans-serif;
+    font-size: .6em;
+    float: right;
+    color: #2883cf;
+    font-weight: bold;
+}
+
+#video-and-post-views h2 {
+  padding-bottom: -2%;
+  margin-bottom: -2%;
+}
